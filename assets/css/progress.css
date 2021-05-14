@@ -1,0 +1,156 @@
+/* external css: flickity.css */
+
+#screen-select-div>* {
+  box-sizing: border-box;
+}
+
+/* body { font-family: sans-serif;
+  margin-left: 120px;
+  margin-right: 120px;
+} */
+
+.carousel {
+  background: white;
+  margin-bottom: 40px;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: rgb(243, 235, 235);
+  border-radius: 5px;
+  cursor: pointer;
+  /* vertical-align: middle; */
+  display: inline-block;
+  /* justify-content: center;
+    flex-wrap: wrap; */
+  /* counter-increment: carousel-cell; */
+}
+
+/* .my-div {
+  width: 100px;
+  height: 80px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+} */
+
+
+/* .my-div:active{
+  background-color:#f00;
+} */
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  /* content: counter(carousel-cell); */
+  line-height: 200px;
+  font-size: 80px;
+  color: black;
+}
+
+.carousel-nav .carousel-cell {
+  height: 80px;
+  width: 100px;
+}
+
+.carousel-nav .carousel-cell:before {
+  font-size: 50px;
+  line-height: 80px;
+}
+
+.carousel-nav .carousel-cell:focus {
+  background: #df0e62;
+}
+
+.carousel-nav .carousel-cell.is-selected {
+  background: #df0e62;
+}
+
+.carousel-nav .carousel-cell .date-numeric {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 18px;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 20%;
+}
+
+.carousel-nav .carousel-cell .date-day {
+  color: black;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  line-height: 14px;
+  text-align: center;
+  vertical-align: middle;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.screens {
+  display: block;
+  /* padding: 10px; */
+  margin-bottom: 10px;
+  text-align: left;
+  color: var(--theme-title);
+  /* float: left; */
+}
+
+.screen-time {
+  background-color: rgb(243, 235, 235);
+  border: none;
+  color: black;
+  padding: 10px 22px;
+  border: 1px solid var(--theme-screen-time-border);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  margin-right: 20px;
+  float: left;
+}
+
+/* .time-btn{
+  float: left;
+} */
+ul.time-ul {
+  list-style-type: none;
+  display: table;
+}
+
+li.time-li {
+  margin-bottom: 25px;
+  display: table;
+  /* display: inline-block; */
+}
+
+.screen-time:focus {
+  background-color: #df0e62;
+  color: white;
+}
+
+.flickity-viewport {
+  background-color: var(--theme-bg);
+}
+
+/* .screen-time{
+  background-color: rgb(243, 235, 235);
+  border: 1px;
+} */
+/* .carousel-cell.active{
+  background: #ED2;
+} */
+/* .fill-div {
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  color: #8C8;
+  border-radius: 5px;
+}
+.fill-div:active {
+  color:#ED2;
+} */
