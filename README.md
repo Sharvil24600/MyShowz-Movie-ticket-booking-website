@@ -2,6 +2,10 @@
 It is a movie ticket booking website with front-end only. I designed it as a part of my HCI (human-computer interaction) project.
 It is available in both dark & light mode.
 
+## Demo
+http://myshowz.great-site.net/
+
+
 # Glimpse of the Website
 ## Home page in the dark mode
 ![Home page in the dark mode](./screenshots/MyShowz_home_page_dark.PNG)
