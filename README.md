@@ -3,7 +3,7 @@ It is a movie ticket booking website with front-end only. I designed it as a par
 It is available in both dark & light mode.
 
 ## Demo
-http://myshowz.great-site.net/
+http://myshowz.infinityfreeapp.com/
 
 # Glimpse of the Website
 ## Home page in the dark mode
